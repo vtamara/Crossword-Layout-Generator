@@ -466,7 +466,7 @@ function generateSimpleTable(words){
   var cols = rows;
   var blankTable = initTable(rows, cols);
   var table = generateTable(blankTable, rows, cols, words, [0.7, 0.15, 0.1, 0.05]);
-  var newTable = removeIsolatedWords(table);
+  var newTable = table; // removeIsolatedWords(table);
   var finalTable = trimTable(newTable);
   assignPositions(finalTable.result);
   return finalTable;
