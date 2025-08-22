@@ -1,6 +1,6 @@
 {
-  "name": "crossword-layout-generator",
-  "version": "0.1.1",
+  "name": "crossword-layout-generator-with-isolated",
+  "version": "0.1.2",
   "description": "Generates a crossword layout from any list of answers given in a JSON format.",
   "main": "src/layout_generator.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichaelWehar/Crossword-Layout-Generator.git"
+    "url": "git+https://github.com/vtamara/Crossword-Layout-Generator.git"
   },
   "keywords": [
     "crossword",
